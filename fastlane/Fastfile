@@ -18,14 +18,14 @@ default_platform(:android)
 platform :android do
   desc "Runs all the tests"
   lane :test do
-    gradle(task: "test")
+    gradle(task: "test",  project_dir: "android/")
   end
 
   desc "Build"
   lane :build do
     #gradle(task: "clean assembleRelease")
     test                                               #calling one lane from another lane
-    build_android_app(task: "clean assembleRelease")  # alias for gradle 
+    build_android_app(task: "clean assembleRelease",  project_dir: "android/")  # alias for gradle 
   end
 
   desc "Submit a new Beta Build to Crashlytics Beta"
