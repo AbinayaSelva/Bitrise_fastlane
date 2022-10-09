@@ -24,7 +24,7 @@ platform :android do
   desc "Build"
   lane :build do
     #gradle(task: "clean assembleRelease")
-    #test                                               #calling one lane from another lane
+    test                                               #calling one lane from another lane
     build_android_app(task: "clean assembleRelease")  # alias for gradle 
   end
 
