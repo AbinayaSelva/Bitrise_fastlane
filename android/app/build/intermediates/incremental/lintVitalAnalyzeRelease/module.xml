@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="/home/rently/Desktop/fastlane/Fastlane/android/app"
+    dir="/home/rently/Desktop/Bitrise/android/app"
     name=":app"
     type="APP"
     maven="Fastlane:app:"

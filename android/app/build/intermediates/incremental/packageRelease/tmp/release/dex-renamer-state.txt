@@ -1,4 +1,4 @@
-#Mon Oct 03 22:46:51 IST 2022
-base.0=/home/rently/Desktop/fastlane/Fastlane/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+#Sun Oct 09 13:20:55 IST 2022
+base.0=/home/rently/Desktop/Bitrise/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
